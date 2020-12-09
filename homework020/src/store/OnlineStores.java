@@ -1,3 +1,5 @@
+package store;
+
 public class OnlineStores {
     private String account;         //интернет магазин
     private int shippingWeight;     //доставка в кг

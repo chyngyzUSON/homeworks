@@ -1,6 +1,8 @@
-public class Amazon extends OnlineStores {
-    public Amazon(String account){
-        super("amazon.com", 35, 14, 15, 5);
+package store;
+
+public class Ozon extends OnlineStores {
+    public Ozon(String account){
+        super("ozon.ru", 20, 5, 5, 20);
     }
 
     @Override
@@ -17,8 +19,8 @@ public class Amazon extends OnlineStores {
 
     @Override
     public double VAT(String account, double tax) {
-        System.out.println("VAT from " + getAccount() + tax + " percent");
-        return getTax(account, tax);
+            System.out.println("VAT from " + getAccount() + tax + " percent");
+            return getTax(account, tax);
     }
 
     @Override

@@ -1,3 +1,5 @@
+package store;
+
 public class Alibaba extends OnlineStores {
     public Alibaba(String account){
         super("alibaba.com", 10, 9, 15, 14);

@@ -1,3 +1,7 @@
+import store.Alibaba;
+import store.Amazon;
+import store.Ozon;
+
 public class OnlineOrder {
     private Ozon ozonApp;
     private Alibaba alibabaApp;
